@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500&display=swap');¨
+
+body {
+    margin: 0.75em 0.75em;
+    background-color: #CCB6AD;
+}
+
+
+
+.griglia {
+    background-color: #CCB6AD;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 0.75em;
+
+}
+
+.griglia1 {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    grid-row-gap: 0.75em;
+    padding-left: -0.75em;
+    color:#CCB6AD;
+}
+
+.cella {
+    /* background-color: lightblue; */
+    /* outline: 1px red solid; */
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.25em;
+}
+
+.cella img {
+    width:100%;
+}
+
+.logo {
+    margin-top: 16px;
+    margin-left: -0.75em;
+    margin-right: -0.4em;
+    z-index:2;
+}
+
+.unica{
+    grid-column: span 1;
+}
+
+.doppia {
+     grid-column: span 2;
+}
+.tripla {
+     grid-column: span 3;
+}
+.quadrupla {
+     grid-column: span 4;
+}
+
+.quintupla {
+    grid-column: span 5;
+}
+
+.sestupla {
+    grid-column: span 6;
+}
+
+.settupla {
+    grid-column: span 7;
+}
+
+.ottupla {
+    grid-column: span 8;
+}
+
+.decima {
+    grid-column: span 10;
+}
+
+.tutta {
+    grid-column: span 12;
+}
+
+.claim{
+    z-index: 1;
+}
+
+.colonne{
+    column-count: 2;
+    column-gap: 1em;
+}
+
+.nav{
+    background-color: #CCB6AD;
+    grid-column: span 12;
+    min-height: 1em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    padding-left: 0.75em;
+    margin-left: -0.75em;
+    border-bottom: 3px solid black;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+}
+
+.nav_shop{
+    font-weight: 500;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color: #CCB6AD;
+    color: black;
+    transition: background-color 0.05s linear;
+}
+
+.nav_shop:hover{
+    background-color: black;
+}
+
+.gif{
+   /*  overflow: hidden; */
+ 
+    position: absolute;
+    top: 60vh;
+    left: 50vw;
+    width: 45%;
+    z-index: 0;
+}
+
+   
+pre{
+    margin: 0;
+    padding: 0.05em;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+
+p {
+    margin:0;
+}
+h1 {
+    margin-top: 2vw;
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 0.825em;
+    top: 60vh;
+    /*margin: 0;*/
+}
+
+h2{
+    margin: 0;
+    color:#CCB6AD;
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1em;
+}
+
+/*fotografie che cambiano con l'hover*/
+.trittico1{
+    border-right: 3px solid black;
+    background: url("img/ESA1.jpg") no-repeat;
+    height: 80vh;  
+    background-size: cover;
+    background-position: center center;
+    }
+
+
+.trittico1:hover {
+    background: url("img/ESA2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.trittico2{
+    border-right: 3px solid black;
+    background: url("img/CUB1.jpg") no-repeat;
+    height: 80vh;  
+    background-size: cover;
+    background-position: center center;
+
+    }
+
+
+.trittico2:hover {
+    background: url("img/CUB2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.trittico3{
+
+    background: url("img/TET1.jpg") no-repeat;
+    height: 80vh;  
+    background-size: cover;
+    background-position: center center;
+
+    }
+
+
+.trittico3:hover {
+    background: url("img/TET2.jpg") no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+
+/*hover nav*/
+
+a{
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: none;
+    background-color: #CCB6AD;
+    color: black;
+    transition: color 0.05s linear;
+    transition: background-color 0.05s linear;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #ff4d01;
+
+
+}
+
+
+/* 
+@media (max-width:600px) {
+
+    .griglia {
+        max-width: initial;
+        display: block;
+    }
+    .cella {
+        margin-bottom: 1em;
+    }
+
+} */
