@@ -3,6 +3,7 @@
 body {
     margin: 0.75em 0.75em;
     background-color: #CCB6AD;
+    overflow:hidden;
 }
 
 
@@ -112,6 +113,7 @@ body {
 
 .nav_shop{
     font-size: 1.5em;
+    margin-right: 0.75em;
     font-weight: 500;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
