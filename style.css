@@ -38,7 +38,7 @@ body {
 }
 
 .logo {
-    margin-top: 20px;
+    margin-top: 24px;
     margin-left: -0.75em;
     margin-right: -0.4em;
     z-index:2;
@@ -101,6 +101,7 @@ body {
     font-size: 1.5em;
     padding-left: 0.75em;
     margin-left: -0.75em;
+    padding-bottom: 2px;
     border-bottom: 3px solid black;
     overflow: hidden;
     position: fixed;
@@ -238,21 +239,9 @@ h2{
 }
 
 .nome_vasi{
-    margin-left: 0.4em;
-    font-size: 2em;
+    margin-left: 0.5em;
+    font-size: 1.75em;
     font-weight: 500;
-}
-
-.nome_vasi1{
-    position: absolute;
-    left: 46.66%;
-    font-size: 2em;
-}
-
-.nome_vasi2{
-    position: absolute;
-    left: 80%;
-    font-size: 2em;
 }
 
 
