@@ -237,7 +237,23 @@ h2{
     background-position: center center;
 }
 
+.nome_vasi{
+    margin-left: 0.4em;
+    font-size: 2em;
+    font-weight: 500;
+}
 
+.nome_vasi1{
+    position: absolute;
+    left: 46.66%;
+    font-size: 2em;
+}
+
+.nome_vasi2{
+    position: absolute;
+    left: 80%;
+    font-size: 2em;
+}
 
 
 /*hover nav*/
