@@ -98,6 +98,7 @@ body {
     display: flex;
     justify-content: space-between;
     font-weight: 500;
+    font-size: 1.25em;
     padding-left: 0.75em;
     margin-left: -0.75em;
     border-bottom: 3px solid black;
@@ -109,6 +110,7 @@ body {
 }
 
 .nav_shop{
+    font-size: 1.25em;
     font-weight: 500;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
@@ -118,6 +120,28 @@ body {
 }
 
 .nav_shop:hover{
+    background-color: #ff4d01;
+    color: black;
+}
+
+.acquista{
+    position: fixed;
+    width: 100%;
+    background-color: #CCB6AD;
+    margin-left: -0.3em;
+    top: 85vh;
+    padding-top: 3vh;
+    padding-bottom: 15vh;
+    text-align: center;
+    font-size: 1.75em;
+    font-weight: 500;
+    border-top: 3px solid black;
+
+    transition: background-color 0.05s linear;
+}
+
+
+.acquista:hover{
     background-color: #ff4d01;
     color: black;
 }
@@ -144,6 +168,9 @@ pre{
 
 p {
     margin:0;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1em;
+    font-weight: 500;
 }
 h1 {
     margin-top: 2vw;
