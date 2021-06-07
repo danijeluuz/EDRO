@@ -118,7 +118,8 @@ body {
 }
 
 .nav_shop:hover{
-    background-color: black;
+    background-color: #ff4d01;
+    color: black;
 }
 
 .gif{
